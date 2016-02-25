@@ -8,6 +8,12 @@
   </head>
   <body>
     <header class="navigation" role="banner">
+      <div id="js-parallax-window" class="parallax-window">
+        <div class="parallax-static-content">
+          <b>Parallax Window</b>
+        </div>
+        <div id="js-parallax-background" class="parallax-background"></div>
+      </div>
       <div class="navigation-wrapper">
         <a href="javascript:void(0)" class="logo">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo Image">
@@ -15,20 +21,28 @@
         <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
         <nav role="navigation">
           <ul id="js-navigation-menu" class="navigation-menu show">
-            <li class="nav-link"><a href="javascript:void(0)">Products</a></li>
-            <li class="nav-link"><a href="javascript:void(0)">About Us</a></li>
-            <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
-            <li class="nav-link more"><a href="javascript:void(0)">More</a>
+            <li class="nav-link">
+              <a href="javascript:void(0)">Products</a>
+            </li>
+            <li class="nav-link">
+              <a href="javascript:void(0)">About Us</a>
+            </li>
+            <li class="nav-link">
+              <a href="javascript:void(0)">Contact</a></li>
+            <li class="nav-link more">
+              <a href="javascript:void(0)">More</a>
               <ul class="submenu">
                 <li><a href="javascript:void(0)">Submenu Item</a></li>
                 <li><a href="javascript:void(0)">Another Item</a></li>
-                <li class="more"><a href="javascript:void(0)">Item with submenu</a>
-                  <ul class="submenu">
+                <li class="more">
+                  <a href="javascript:void(0)">Item with submenu</a>
+                <ul class="submenu">
                     <li><a href="javascript:void(0)">Sub-submenu Item</a></li>
                     <li><a href="javascript:void(0)">Another Item</a></li>
                   </ul>
                 </li>
-                <li class="more"><a href="javascript:void(0)">Another submenu</a>
+                <li class="more">
+                  <a href="javascript:void(0)">Another submenu</a>
                   <ul class="submenu">
                     <li><a href="javascript:void(0)">Sub-submenu</a></li>
                     <li><a href="javascript:void(0)">An Item</a></li>
@@ -50,6 +64,7 @@
         </div>
       </div>
     </header>
+    <br>
     <div class="wrapper-for-content-outside-of-footer">
       <section class="firstRow">
         <div id="featureArticle">
@@ -76,7 +91,7 @@
             </div>
         </div>
       </section>
-      
+
       <div class="cards">
         <div class="card">
           <div class="card-image">
