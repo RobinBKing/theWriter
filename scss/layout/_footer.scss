@@ -2,30 +2,30 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 // Uncomment this for a sticky footer.
-//
-// .wrapper-for-content-outside-of-footer {
-//   min-height: 100%;
-//   height: auto !important;
-//   height: 100%;
-//   margin: 0 auto -4em;
-// }
 
-// html, body {
-//  height: 100%;
-// }
+.wrapper-for-content-outside-of-footer {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
 
-// .wrapper-for-content-outside-of-footer:after {
-//   content: "";
-//   display: block;
-// }
+html, body {
+ height: 100%;
+}
 
-// .footer-2, .wrapper-for-content-outside-of-footer:after {
-//   height: 17em;
+.wrapper-for-content-outside-of-footer:after {
+  content: "";
+  display: block;
+}
 
-//   @include media($large-screen) {
-//     height: 4em;
-//   }
-// }
+.footer-2, .wrapper-for-content-outside-of-footer:after {
+  height: 17em;
+
+  @include media($large-screen) {
+    height: 4em;
+  }
+}
 
 .footer-2 {
   $base-spacing: 1.5em !default;
@@ -54,13 +54,13 @@
 
   .footer-logo img {
     height: 1.6em;
-  } 
+  }
 
   ul {
     line-height: 1.5em;
     margin: 0 0 1em 0;
     padding: 0;
-    
+
     @include media($large-screen) {
       float: left;
       line-height: 1.8em;
